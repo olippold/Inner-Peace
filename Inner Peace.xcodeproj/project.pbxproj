@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4637A9E024CC96AC008E922A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4637A9DF24CC96AC008E922A /* DateExtension.swift */; };
 		46BE6C1924C3275C00E743F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE6C1824C3275C00E743F9 /* AppDelegate.swift */; };
 		46BE6C1B24C3275C00E743F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE6C1A24C3275C00E743F9 /* SceneDelegate.swift */; };
 		46BE6C1D24C3275C00E743F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE6C1C24C3275C00E743F9 /* ViewController.swift */; };
@@ -14,6 +15,10 @@
 		46BE6C2224C3275E00E743F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BE6C2124C3275E00E743F9 /* Assets.xcassets */; };
 		46BE6C2524C3275E00E743F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BE6C2324C3275E00E743F9 /* LaunchScreen.storyboard */; };
 		46BE6C3024C3275E00E743F9 /* Inner_PeaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE6C2F24C3275E00E743F9 /* Inner_PeaceTests.swift */; };
+		46BE6C3C24C3294B00E743F9 /* pictures.json in Resources */ = {isa = PBXBuildFile; fileRef = 46BE6C3A24C3294B00E743F9 /* pictures.json */; };
+		46BE6C3D24C3294B00E743F9 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 46BE6C3B24C3294B00E743F9 /* quotes.json */; };
+		46BE6C3F24C3298B00E743F9 /* Bundle-Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE6C3E24C3298B00E743F9 /* Bundle-Loading.swift */; };
+		46BE6C4124C32A9700E743F9 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE6C4024C32A9700E743F9 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4637A9DF24CC96AC008E922A /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		46BE6C1524C3275C00E743F9 /* Inner Peace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inner Peace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BE6C1824C3275C00E743F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46BE6C1A24C3275C00E743F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +44,10 @@
 		46BE6C2B24C3275E00E743F9 /* Inner PeaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inner PeaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BE6C2F24C3275E00E743F9 /* Inner_PeaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inner_PeaceTests.swift; sourceTree = "<group>"; };
 		46BE6C3124C3275E00E743F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BE6C3A24C3294B00E743F9 /* pictures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pictures.json; sourceTree = "<group>"; };
+		46BE6C3B24C3294B00E743F9 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		46BE6C3E24C3298B00E743F9 /* Bundle-Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Loading.swift"; sourceTree = "<group>"; };
+		46BE6C4024C32A9700E743F9 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +92,15 @@
 				46BE6C1824C3275C00E743F9 /* AppDelegate.swift */,
 				46BE6C1A24C3275C00E743F9 /* SceneDelegate.swift */,
 				46BE6C1C24C3275C00E743F9 /* ViewController.swift */,
+				4637A9DF24CC96AC008E922A /* DateExtension.swift */,
 				46BE6C1E24C3275C00E743F9 /* Main.storyboard */,
 				46BE6C2124C3275E00E743F9 /* Assets.xcassets */,
 				46BE6C2324C3275E00E743F9 /* LaunchScreen.storyboard */,
 				46BE6C2624C3275E00E743F9 /* Info.plist */,
+				46BE6C3A24C3294B00E743F9 /* pictures.json */,
+				46BE6C3B24C3294B00E743F9 /* quotes.json */,
+				46BE6C4024C32A9700E743F9 /* Quote.swift */,
+				46BE6C3E24C3298B00E743F9 /* Bundle-Loading.swift */,
 			);
 			path = "Inner Peace";
 			sourceTree = "<group>";
@@ -180,6 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46BE6C3C24C3294B00E743F9 /* pictures.json in Resources */,
+				46BE6C3D24C3294B00E743F9 /* quotes.json in Resources */,
 				46BE6C2524C3275E00E743F9 /* LaunchScreen.storyboard in Resources */,
 				46BE6C2224C3275E00E743F9 /* Assets.xcassets in Resources */,
 				46BE6C2024C3275C00E743F9 /* Main.storyboard in Resources */,
@@ -200,8 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46BE6C3F24C3298B00E743F9 /* Bundle-Loading.swift in Sources */,
+				4637A9E024CC96AC008E922A /* DateExtension.swift in Sources */,
 				46BE6C1D24C3275C00E743F9 /* ViewController.swift in Sources */,
 				46BE6C1924C3275C00E743F9 /* AppDelegate.swift in Sources */,
+				46BE6C4124C32A9700E743F9 /* Quote.swift in Sources */,
 				46BE6C1B24C3275C00E743F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lodgeblaid.Inner-Peace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -390,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lodgeblaid.Inner-Peace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
